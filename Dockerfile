@@ -33,4 +33,4 @@ USER elasticsearch
 
 ENV PATH ${PATH}:/usr/share/elasticsearch/bin
 
-CMD ["elasticsearch"]
+ENTRYPOINT ["elasticsearch"]
