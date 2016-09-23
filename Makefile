@@ -1,8 +1,8 @@
 all: push
 
 MAJOR_VERSION = 2
-MINOR_VERSION = 3
-REVISION = 5
+MINOR_VERSION = 4
+REVISION = 0
 
 BUILD_DATE = $(shell date +"%Y%m%d")
 
