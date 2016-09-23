@@ -2,11 +2,11 @@ all: push
 
 MAJOR_VERSION = 2
 MINOR_VERSION = 3
-REVISION = 4
+REVISION = 5
 
-BUILD_DATE = $(shell date +"%Y-%m-%d")
+BUILD_DATE = $(shell date +"%Y%m%d")
 
-TAG = $(MAJOR_VERSION).$(MINOR_VERSION).$(REVISION)_$(BUILD_DATE)
+TAG = $(MAJOR_VERSION).$(MINOR_VERSION).$(REVISION)-$(BUILD_DATE)
 PREFIX = quay.io/widen/elasticsearch
 
 build:

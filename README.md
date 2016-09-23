@@ -9,6 +9,6 @@ Images are tagged as follows:
 
  - $MAJOR_VERSION
  - $MAJOR_VERSION.$MINOR_VERSION
- - $MAJOR_VERSION.$MINOR_VERSION.$REVISION_$BUILD_DATE
+ - $MAJOR_VERSION.$MINOR_VERSION.$REVISION-$BUILD_DATE
 
 Images without a build date appended are always the most recent.
