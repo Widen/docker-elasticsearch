@@ -7,8 +7,7 @@ Based on the instructions posted on the [Elasticsearch blog](https://www.elastic
 
 Images are tagged as follows:
 
- - $MAJOR_VERSION
- - $MAJOR_VERSION.$MINOR_VERSION
- - $MAJOR_VERSION.$MINOR_VERSION.$REVISION-$BUILD_DATE
+ - $MAJOR_VERSION.$MINOR_VERSION.$REVISION
+ - $MAJOR_VERSION.$MINOR_VERSION.$REVISION-$UNIX_TIMESTAMP
 
-Images without a build date appended are always the most recent.
+Images without a timestamp appended are always the most recent.
